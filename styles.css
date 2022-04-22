@@ -28,6 +28,13 @@ html {
     font-size: 62.5%
 }
 
+/* 1400px / 16px = 87.5em */
+@media (max-width: 87.5em) {
+    html {
+        font-size: 70%;
+    }
+}
+
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
     html {
@@ -375,7 +382,7 @@ body {
     font-size: 1.75em;
 }
 
-@media (max-width: 70em) {
+@media (max-width: 87.5em) {
     .main-nav {
         font-size: 5rem;
     }
@@ -387,5 +394,11 @@ body {
     }
     .shop-item-price {
         padding-right: 10px;
+    }
+    .shop-item-image {
+        height: 30rem;
+    }
+    .cart-row {
+        font-size: 1em;
     }
 }
